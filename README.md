@@ -12,7 +12,7 @@ In particolare, il lavoro si basa su modelli encoder-decoder, dove l'encoder uti
 La Tesi è disponibile [qui]().
 ## Datasets
 - Flickr8k
-- Flickr8k_sketchified (creato personalmente convertendo le immagini in sketch, usando una tecnica illustrata in [questo codice](how_to_sketch.ipynb)).
+- [Flickr8k_sketchified]() (creato personalmente convertendo le immagini in sketch, usando una tecnica illustrata in [questo codice](how_to_sketch.ipynb)).
 - sketch-scene
 ## Codice
 I diversi file differiscono principalmente per dataset, tecniche e reti neurali utilizzate.
