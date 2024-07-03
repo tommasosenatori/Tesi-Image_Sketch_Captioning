@@ -17,10 +17,10 @@ La Tesi è disponibile [qui]().
 ## Codice
 I diversi file differiscono principalmente per dataset, tecniche e reti neurali utilizzate.
 - **Dataset:Flickr8k, CNN:VGG16, RNN:SimpleRNN, Lemmatizzazione:No**
-  [Link]().
+  [Link](ImageCaptionInd.ipynb).
 
 - **Dataset:Flickr8k, CNN:Xception, RNN:LSTM, Lemmatizzazione:Si**
-
+  [Link](ImageCaptionSit.ipynb).
 - **Dataset:Flickr8k_sketchified, CNN:Xception, RNN:LSTM, Lemmatizzazione:Si**
 
 - **Dataset:sketch-scene, CNN:Xception, RNN:LSTM, Lemmatizzazione:Si**
