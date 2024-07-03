@@ -22,10 +22,10 @@ I diversi file differiscono principalmente per dataset, tecniche e reti neurali 
 - **Dataset:Flickr8k, CNN:Xception, RNN:LSTM, Lemmatizzazione:Si**
   [Link](ImageCaptionSit.ipynb).
 - **Dataset:Flickr8k_sketchified, CNN:Xception, RNN:LSTM, Lemmatizzazione:Si**
-
+  [Link](SketchifiedCaption.ipynb).
 - **Dataset:sketch-scene, CNN:Xception, RNN:LSTM, Lemmatizzazione:Si**
-
+  [Link](SketchCaption.ipynb).
 - **Dataset:sketch-scene, CNN:Xception, RNN:LSTM, Lemmatizzazione:No**
-
+  [Link](SketchCaption(no_lemma).ipynb).
 ## Crediti
 - Tommaso Senatori
