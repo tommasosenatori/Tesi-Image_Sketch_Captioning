@@ -12,20 +12,15 @@ In particolare, il lavoro si basa su modelli encoder-decoder, dove l'encoder uti
 La Tesi è disponibile [qui]().
 ## Datasets
 - Flickr8k
-- Flickr8k_sketchified (creato personalmente convertendo le immagini in sketch)
+- Flickr8k_sketchified (creato personalmente convertendo le immagini in sketch, usando una tecnica illustrata in [questo codice](how_to_sketch.ipynb)).
 - sketch-scene
 ## Codice
 I diversi file differiscono principalmente per dataset, tecniche e reti neurali utilizzate.
-- **Dataset:Flickr8k, CNN:VGG16, RNN:SimpleRNN, Lemmatizzazione:No**
-  [Link](ImageCaptionInd.ipynb).
+- **Dataset:Flickr8k, CNN:VGG16, RNN:SimpleRNN, Lemmatizzazione:No** --> [Flickr8k Standard](ImageCaptionInd.ipynb).
 
-- **Dataset:Flickr8k, CNN:Xception, RNN:LSTM, Lemmatizzazione:Si**
-  [Link](ImageCaptionSit.ipynb).
-- **Dataset:Flickr8k_sketchified, CNN:Xception, RNN:LSTM, Lemmatizzazione:Si**
-  [Link](SketchifiedCaption.ipynb).
-- **Dataset:sketch-scene, CNN:Xception, RNN:LSTM, Lemmatizzazione:Si**
-  [Link](SketchCaption.ipynb).
-- **Dataset:sketch-scene, CNN:Xception, RNN:LSTM, Lemmatizzazione:No**
-  [Link](SketchCaption(no_lemma).ipynb).
+- **Dataset:Flickr8k, CNN:Xception, RNN:LSTM, Lemmatizzazione:Si** --> [Flickr8k Advanced](ImageCaptionSit.ipynb).
+- **Dataset:Flickr8k_sketchified, CNN:Xception, RNN:LSTM, Lemmatizzazione:Si** --> [Flickr8k_sketchified](SketchifiedCaption.ipynb).
+- **Dataset:sketch-scene, CNN:Xception, RNN:LSTM, Lemmatizzazione:Si** --> [sketch-scene (lemma)](SketchCaption.ipynb).
+- **Dataset:sketch-scene, CNN:Xception, RNN:LSTM, Lemmatizzazione:No** --> [sketch-scene (no lemma)](SketchCaption(no_lemma).ipynb).
 ## Crediti
 - Tommaso Senatori
