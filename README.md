@@ -11,9 +11,9 @@ In particolare, il lavoro si basa su modelli encoder-decoder, dove l'encoder uti
 ## Tesi
 La Tesi è disponibile [qui](TesiTommasoSenatori.pdf).
 ## Datasets
-- Flickr8k
-- Flickr8k_sketchified (creato personalmente convertendo le immagini in sketch, usando una tecnica illustrata in [questo codice](how_to_sketch.ipynb)).
-- sketch-scene
+- [Flickr8k](https://www.kaggle.com/datasets/adityajn105/flickr8k)
+- [Flickr8k_sketchified](https://www.kaggle.com/datasets/tommasosenatori/flickr8k-sketch) (creato personalmente convertendo le immagini in sketch, usando una tecnica illustrata in [questo codice](how_to_sketch.ipynb)).
+- [sketch-scene](https://huggingface.co/datasets/zoheb/sketch-scene)
 ## Codice
 I diversi file differiscono principalmente per dataset, tecniche e reti neurali utilizzate.
 - **Dataset:Flickr8k, CNN:VGG16, RNN:SimpleRNN, Lemmatizzazione:No** --> [Flickr8k Standard](ImageCaptionInd.ipynb).
